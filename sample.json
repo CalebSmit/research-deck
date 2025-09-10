@@ -1,0 +1,30 @@
+{
+  "ticker": "MSFT",
+  "companyName": "Microsoft",
+  "asOfDate": "2025-09-10",
+  "priceToday": 420.12,
+  "snapshot": {
+    "industry": "Software",
+    "businessModel": "Subscriptions, licenses, and cloud services",
+    "marketCap": "3.2T",
+    "growthFocus": "Cloud, AI, enterprise upsell"
+  },
+  "ratings": [
+    {"source":"Argus","rating":"Buy","target":480},
+    {"source":"Morningstar","rating":"Buy","target":460}
+  ],
+  "positives": ["Strong cloud growth","Pricing power","Net cash position"],
+  "negatives": ["FX headwinds","Regulatory scrutiny","AI cost curve"],
+  "competitors":[
+    {"peer":"GOOGL","mktCap":2000000,"pe":27,"note":"Search/Cloud"},
+    {"peer":"AMZN","mktCap":1850000,"pe":48,"note":"Cloud/Retail"}
+  ],
+  "risks": ["Regulatory actions on bundling","AI monetization uncertainty"],
+  "tone":"Bullish",
+  "whyTone":"Consensus expects durable Azure growth and operating leverage over time.",
+  "discrepancies":["Different LT margin assumptions"],
+  "watch":["Next earnings date","Copilot adoption metrics"],
+  "charts":[{"title":"Targets vs Price","type":"bar","dataLabels":["Argus","Morningstar","Current"],"dataValues":[480,460,420.12]}],
+  "logoUrl":"https://logo.clearbit.com/microsoft.com",
+  "sources": ["Argus p.2", "Morningstar p.5"]
+}
